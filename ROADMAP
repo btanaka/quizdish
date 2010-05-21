@@ -1,0 +1,10 @@
+# priority : description : person
+
+3 : user should be greeted by a good looking main page :
+3 : user should see a quiz right away on the main page : 
+
+--- hopper ---
+
+--- done ---
+
+x 3 : user should see a quiz right away on the main page : 
