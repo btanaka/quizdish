@@ -2,8 +2,14 @@
 
 3 : user should be greeted by a good looking main page :
 3 : user should see a quiz right away on the main page : 
+3 : user should be able to reveal a div containing the correct kana to compare to their handwritten answer : 
 
 --- hopper ---
+
+3 : user should be able to log in to an account for preferences and progress :
+3 : user should be able to select which kana they want to limit the quizes to :
+3 : user should gradually not see items they've mastered :
+3 : user should be able to indicate whether or not they were correct :
 
 --- done ---
 
