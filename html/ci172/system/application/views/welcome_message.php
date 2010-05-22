@@ -14,7 +14,9 @@
 <p><strong>QuizDish: Kana</strong>
 helps you practice your <em>written</em> kana.
 You will be shown a series of Japanese words, one at a time.
-On a piece of paper, write, in kana, the word you see in romaji. Then,
+With a
+pen, pencil or brush, on a piece of paper, write, in kana,
+the word you see in romaji. Then,
 click the "Reveal the answer" button to see how the kana
 should properly be written.
 </p>
