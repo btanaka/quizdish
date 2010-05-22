@@ -34,20 +34,9 @@
 | the active record class
 */
 
-$active_group = "dev";
+$active_group = "default";
 $active_record = TRUE;
-$db['dev']['hostname'] = "localhost";
-$db['dev']['username'] = "quizdish_user";
-$db['dev']['password'] = "quiz1892";
-$db['dev']['database'] = "quizdishdb";
-$db['dev']['dbdriver'] = "mysql";
-$db['dev']['dbprefix'] = "";
-$db['dev']['pconnect'] = TRUE;
-$db['dev']['db_debug'] = FALSE;
-$db['dev']['cache_on'] = FALSE;
-$db['dev']['cachedir'] = "";
-$db['dev']['char_set'] = "utf8";
-$db['dev']['dbcollat'] = "utf8_general_ci";
+
 $db['default']['hostname'] = "localhost";
 $db['default']['username'] = "";
 $db['default']['password'] = "";
