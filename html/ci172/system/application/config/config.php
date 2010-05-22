@@ -11,7 +11,8 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://example.com/";
+// $config['base_url']	= "http://example.com/";
+$config['base_url']	= "http://localdish.com/";
 
 /*
 |--------------------------------------------------------------------------

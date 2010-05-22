@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Lucida Grande, Verdana, Sans-serif;
+    font-size: 80%;
+    color: #444;
+    background-color: #fff;
+    margin:50px 0px; padding:0px;
+    text-align:center;
+}
+    
+#Content {
+    width:500px;
+    margin:0px auto;
+    text-align:left;
+    padding:15px;
+    line-height: 1.5em;
+    }
+
+h1 {
+    font-size: 2em;
+    padding: 0px 0px 6px 0px;
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid #afafaf;
+}
+
+.quizprompt {
+    padding: 22px 12px 12px 12px;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid #afafaf;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    background: #efefef;
+}
+
+p {
+    margin-bottom: 1em;
+}
