@@ -21,10 +21,26 @@ body {
     }
 
 h1 {
-    font-size: 2em;
-    padding: 0px 0px 6px 0px;
-    margin: 0px 0px 10px 0px;
-    border-bottom: 1px solid #afafaf;
+    font-size: 3em;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 0px solid #afafaf;
+    color: #00a;
+}
+
+h2 {
+    font-size: 1.25em;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    color: #a00;
+    font-weight: bold;
+    border-bottom: 0px solid #afafaf;
+}
+
+#tagline {
+    padding: 0px 0px 0px 10px;
+    margin: 6px 0px 0px 0px;
+    font-size: 0.9em;
 }
 
 .quizprompt {
@@ -39,4 +55,19 @@ h1 {
 
 p {
     margin-bottom: 1em;
+}
+
+#footer {
+    border-top: 1px solid #afafaf;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#menu {
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 2px;
+    margin: 6px 0px 0px 0px;
 }

@@ -2,7 +2,6 @@
 
 3 : user should enjoy some solid external css, possibly blueprintcss : brian
 3 : user should be greeted by a good looking main page : brian
-3 : user should see a quiz right away on the main page : 
 3 : user should be able to reveal a div containing the correct kana to compare to their handwritten answer : 
 
 --- hopper ---
@@ -15,3 +14,4 @@
 --- done ---
 
 x 3 : user should see a quiz right away on the main page : 
+rejected 3 : user should see a quiz right away on the main page : 
