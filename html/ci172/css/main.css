@@ -71,3 +71,12 @@ p {
     padding: 2px;
     margin: 6px 0px 0px 0px;
 }
+
+#slickbox {
+    text-align: center;
+    font-size: 0.8em;
+    border: 1px solid #dfdfdf;
+    background-color: #afafaf;
+    padding: 12px;
+    margin: 6px 0px 10px 0px;	
+}

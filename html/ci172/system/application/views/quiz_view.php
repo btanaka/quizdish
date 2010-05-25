@@ -4,5 +4,5 @@
 
 <div class="quizprompt">To Ki Do Ki</div>
 
-<p><a href="">Reveal the answer</a></p>
-
+<p><a href="" id="slick-slidetoggle">Reveal the answer</a>
+<div id="slickbox"><span style="font-size: 2em;">Answer Kana Will Appear Here</span></div>
