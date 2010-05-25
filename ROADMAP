@@ -4,6 +4,7 @@
 3 : user should be greeted by a good looking main page : brian or other
 3 : user should be able to reveal a div containing the correct kana to compare to their handwritten answer : brian
 3 : set up table for question and answer pairs. answers are urls to images. : tim
+3 : externalize js : 
 
 --- hopper ---
 
