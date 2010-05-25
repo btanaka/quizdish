@@ -1,8 +1,9 @@
 # priority : description : person
 
-3 : user should enjoy some solid external css, possibly blueprintcss : brian
-3 : user should be greeted by a good looking main page : brian
-3 : user should be able to reveal a div containing the correct kana to compare to their handwritten answer : 
+3 : blueprintcssifiy : 
+3 : user should be greeted by a good looking main page : brian or other
+3 : user should be able to reveal a div containing the correct kana to compare to their handwritten answer : brian
+3 : set up table for question and answer pairs. answers are urls to images. : tim
 
 --- hopper ---
 
@@ -10,8 +11,11 @@
 3 : user should be able to select which kana they want to limit the quizes to :
 3 : user should gradually not see items they've mastered :
 3 : user should be able to indicate whether or not they were correct :
+3 : user should be able to click a link and see the stroke order for all characters, preferably animated :
+3 : user should be able to see the stroke order animated right in the answer div :
 
 --- done ---
 
 x 3 : user should see a quiz right away on the main page : 
 rejected 3 : user should see a quiz right away on the main page : 
+x 3 : user should enjoy some initial solid external css, possibly blueprintcss : brian
