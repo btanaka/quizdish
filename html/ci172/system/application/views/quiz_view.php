@@ -5,4 +5,4 @@
 <div class="quizprompt">To Ki Do Ki</div>
 
 <p><a href="" id="slick-slidetoggle">Reveal the answer</a>
-<div id="slickbox"><span style="font-size: 2em;">Answer Kana Will Appear Here</span></div>
+<div id="slickbox"><span style="font-size: 2em;"><img src="/images/kana/tokidoki.png"></span></div>
