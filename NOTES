@@ -19,3 +19,27 @@ $db['test']['dbcollat'] = "utf8_general_ci";
 Then, to globally tell the system to use that group you would set this variable located in the config file:
 
 $active_group = "test";
+
+Wed May 26 14:50:51 PDT 2010 
+
+*data for quizdb controller*
+
+CREATE TABLE IF NOT EXISTS `quizdata` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `pack` int(10) unsigned NOT NULL,
+  `question` tinytext NOT NULL,
+  `answer` tinytext NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `pack` (`pack`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `quizdata`
+--
+
+INSERT INTO `quizdata` (`id`, `pack`, `question`, `answer`) VALUES
+(1, 1, 'ka', '/images/kana/ka.jpg'),
+(2, 1, 'ki', '/images/kana/ki.jpg'),
+(3, 1, 'ku', '/images/kana/ku.jpg'),
+(4, 1, 'ke', '/images/kana/ke.jpg'),
+(5, 1, 'ko', '/images/kana/ko.jpg');
