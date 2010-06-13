@@ -1,0 +1,7 @@
+# let's ignore config.php and database.php so that we can have
+# installation-specific configs. we'll have a config-template.php
+# and database-template.php file for reference. the real
+# files will be ignored by git
+
+config.php
+database.php
