@@ -1,6 +1,16 @@
+=== Milestones ===
+
+o Phase I: "The Insanely Simple Version" 
+o Phase II: "The Simple, But With Real Words Version" 
+o Phase III: to be announced
+o Phase IV: to be announced
+
+=== Tasks / Stories ===
+
 # priority : description : person
 
-3 : blueprintcssifiy : 
+3 : user should see random words in romaji in the quiz. : brian (>>>)
+3 : blueprintcssifiy : brian
 3 : user should be greeted by a good looking main page : brian or other
 3 : user should be able to reveal a div containing the correct kana to compare to their handwritten answer : brian
 3 : set up table for question and answer pairs. answers are urls to images. : tim
