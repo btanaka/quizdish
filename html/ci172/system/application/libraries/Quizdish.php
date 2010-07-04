@@ -16,4 +16,6 @@ class Quizdish {
 		log_message('debug', "Quizdish Class Initialized");
 	}
 }
+
+// END Quizdish library
 ?>

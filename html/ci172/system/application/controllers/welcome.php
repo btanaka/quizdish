@@ -1,10 +1,10 @@
 <?php
-
 class Welcome extends Controller {
 
 	function Welcome()
 	{
-		parent::Controller();	
+		parent::Controller();
+//		$this->load->library('Quizdish');
 	}
 	
 	function index()
