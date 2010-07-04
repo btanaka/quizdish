@@ -6,5 +6,5 @@ class Footer extends Controller {
         print "footer";
     }
 }
-?>
 
+?>
