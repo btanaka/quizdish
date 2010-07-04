@@ -10,12 +10,18 @@
 class Quizdish {
 	
 	// var $foo = "bar";
+	var $out = "";
 	
 	// Constructor
 	function Quizdish() {
 		log_message('debug', "Quizdish Class Initialized");
 	}
-}
 
-// END Quizdish library
+	function llama() {
+		log_message('debug', "in quizdish, test_function...");
+		$out = "I am a test."; // debug
+		return $out;
+	}
+
+}// END Quizdish library
 ?>

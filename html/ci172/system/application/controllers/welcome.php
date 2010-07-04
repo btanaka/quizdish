@@ -4,7 +4,6 @@ class Welcome extends Controller {
 	function Welcome()
 	{
 		parent::Controller();
-//		$this->load->library('Quizdish');
 	}
 	
 	function index()
