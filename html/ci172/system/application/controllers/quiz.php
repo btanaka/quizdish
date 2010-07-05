@@ -1,5 +1,7 @@
 <?php
 class Quiz extends Controller {
+
+	var $imagepath = "/images/kana/";
 	
 	function Quiz() {
     	parent::Controller();
@@ -16,10 +18,15 @@ class Quiz extends Controller {
 		log_message('debug', "in quiz controller...");
         $syllables = $this->quizdish->get_random_syllables();
 //        echo "$syllables"; //debug
-		// TODO: send the syllables to a function in the library to turn it into the images string stuff.
+		$image_bases = explode(' ', $syllables);
+		// TODO: the current array supports three and only three syllables. 
+		// refactor to make it more flexible.
 		$data = array(
-               'syllables' => $syllables
-        );
+               'syllables' => $syllables,
+				'image01' => $this->imagepath . $image_bases[0] . ".jpg",
+				'image02' => $this->imagepath . $image_bases[1] . ".jpg",
+				'image03' => $this->imagepath . $image_bases[2] . ".jpg"
+		);
         $this->load->view('quiz_view', $data); // TODO: current quiz_view is hard-wired. fix for dynamic.
         $this->load->view('footer_view');
     }
