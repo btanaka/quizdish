@@ -1,6 +1,10 @@
 <?php
 class Quiz extends Controller {
 	
+	function Quiz() {
+    	parent::Controller();
+	}
+	
     function index()
     {
 		$this->load->helper('html');
@@ -10,11 +14,12 @@ class Quiz extends Controller {
         $this->load->view('menu_view');
         
 		log_message('debug', "in quiz controller...");
-        // get some random syllables
-        // TODO: llama is just a test. replace with actual random syllableizer...
-        $result = $this->quizdish->llama();
-//		echo $result;
-        $this->load->view('quiz_view'); // TODO: current quiz_view is hard-wired. fix for dynamic.
+        $syllables = $this->quizdish->get_random_syllables();
+//        echo "$syllables"; //debug
+		$data = array(
+               'syllables' => $syllables
+        );
+        $this->load->view('quiz_view', $data); // TODO: current quiz_view is hard-wired. fix for dynamic.
         $this->load->view('footer_view');
     }
 }

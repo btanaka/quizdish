@@ -18,9 +18,18 @@ class Quizdish {
 	}
 
 	function llama() {
-		log_message('debug', "in quizdish, test_function...");
+		log_message('debug', "in quizdish, llama...");
 		$out = "I am a test."; // debug
 		return $out;
+	}
+	
+	function get_random_syllables() { // TODO: eventually pass number of syllables, type of kana, etc
+		log_message('debug', "in quizdish library, get_random_syllables...");
+//		$out = "I am a test."; // debug
+		$CI =& get_instance();
+		$CI->load->model('Quizdb'); 
+		$syllables = $CI->Quizdb->random_syllables();
+		return $syllables;
 	}
 
 }// END Quizdish library

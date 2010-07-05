@@ -1,5 +1,25 @@
 <?php
 
+class Quizdb extends Model {
+
+//    var $foo  = '';
+
+    function Quizdb()
+    {
+        // Call the Model constructor
+        parent::Model();
+    }
+
+    // TODO: make array for syllables. may keep instead of table.
+    function random_syllables() { // TODO: eventually pass number of syllables, type of kana, etc
+    	log_message('debug', 'in random_syllables');
+    	$out = "to ki do ki";
+    	return $out;
+    }
+    
+}
+
+
 // TODO: the following code was removed from the quizdb controller. it needs to be refactored for model.
 //class Quizdb extends Controller {
 //
