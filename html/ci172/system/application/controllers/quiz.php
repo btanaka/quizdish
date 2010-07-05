@@ -16,6 +16,7 @@ class Quiz extends Controller {
 		log_message('debug', "in quiz controller...");
         $syllables = $this->quizdish->get_random_syllables();
 //        echo "$syllables"; //debug
+		// TODO: send the syllables to a function in the library to turn it into the images string stuff.
 		$data = array(
                'syllables' => $syllables
         );
