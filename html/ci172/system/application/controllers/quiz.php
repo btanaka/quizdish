@@ -20,10 +20,10 @@ class Quiz extends Controller {
         log_message('debug', "in quiz controller...");
         $syllables = $this->quizdish->get_random_syllables();
         //echo "$syllables"; //debug
-	$image_bases = explode(' ', $syllables);
-	// TODO: the current array supports three and only three syllables. refactor to make it more flexible.
-	// TODO: only handles hiragana for now. refactor to handle katakana too optionally.
-	$data = array(
+        $image_bases = explode(' ', $syllables);
+        // TODO: the current array supports three and only three syllables. refactor to make it more flexible.
+        // TODO: only handles hiragana for now. refactor to handle katakana too optionally.
+        $data = array(
             'syllables' => $syllables,
             'image01' => $this->imagepath . $this->kanatype . $image_bases[0] . $this->imageext,
             'image02' => $this->imagepath . $this->kanatype . $image_bases[1] . $this->imageext,
